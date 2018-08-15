@@ -21,7 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.qcStarView = [[QCStar alloc] initWithFrame:CGRectMake(10, 100, 300, 40) numberOfStars:5];
     self.qcStarView.scorePercent = 0.3;
-    self.qcStarView.isCompleteStar = NO;
+    self.qcStarView.isCompleteStar = NO; //NO的话可以展示半星
     self.qcStarView.isAnimation = YES;
     //是否仅仅是展示,默认为NO，可选
     //self.qcStarView.isJsutDisplay = YES;

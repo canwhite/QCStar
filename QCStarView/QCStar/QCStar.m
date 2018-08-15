@@ -76,7 +76,7 @@
     CGPoint tapPoint = [gesture locationInView:self]; // 手指当前点
     CGFloat offset = tapPoint.x;
     CGFloat realStarScore = offset / (self.bounds.size.width / self.numberOfStars);
-    CGFloat starScore = self.isCompleteStar ? realStarScore : ceilf(realStarScore);
+    CGFloat starScore = self.isCompleteStar ?  ceilf(realStarScore):realStarScore ;
     
     if (_isJsutDisplay) {
         //数据不发生变化，界面也就不刷新
