@@ -16,8 +16,8 @@
 		F67BD4F32123D1FC00579A7C /* QCStarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F67BD4F22123D1FC00579A7C /* QCStarViewTests.m */; };
 		F67BD4FE2123D1FC00579A7C /* QCStarViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F67BD4FD2123D1FC00579A7C /* QCStarViewUITests.m */; };
 		F67BD50E2123D2CE00579A7C /* QCStar.m in Sources */ = {isa = PBXBuildFile; fileRef = F67BD50D2123D2CE00579A7C /* QCStar.m */; };
-		F67BD5112123D7FF00579A7C /* star_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F67BD50F2123D7FF00579A7C /* star_yellow@2x.png */; };
-		F67BD5122123D7FF00579A7C /* star_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F67BD5102123D7FF00579A7C /* star_gray@2x.png */; };
+		F6EBC0952123F4C7009749E9 /* star_yellow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6EBC0932123F4C6009749E9 /* star_yellow@2x.png */; };
+		F6EBC0962123F4C7009749E9 /* star_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6EBC0942123F4C7009749E9 /* star_gray@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,8 @@
 		F67BD4FF2123D1FD00579A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F67BD50C2123D2CE00579A7C /* QCStar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCStar.h; sourceTree = "<group>"; };
 		F67BD50D2123D2CE00579A7C /* QCStar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCStar.m; sourceTree = "<group>"; };
-		F67BD50F2123D7FF00579A7C /* star_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star_yellow@2x.png"; path = "../../../YYStarGradeView-master/YYStarGrade/YYStarGrade/YYStarView/star_yellow@2x.png"; sourceTree = "<group>"; };
-		F67BD5102123D7FF00579A7C /* star_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "star_gray@2x.png"; path = "../../../YYStarGradeView-master/YYStarGrade/YYStarGrade/YYStarView/star_gray@2x.png"; sourceTree = "<group>"; };
+		F6EBC0932123F4C6009749E9 /* star_yellow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_yellow@2x.png"; sourceTree = "<group>"; };
+		F6EBC0942123F4C7009749E9 /* star_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_gray@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,10 +143,10 @@
 		F67BD50B2123D28A00579A7C /* QCStar */ = {
 			isa = PBXGroup;
 			children = (
+				F6EBC0942123F4C7009749E9 /* star_gray@2x.png */,
+				F6EBC0932123F4C6009749E9 /* star_yellow@2x.png */,
 				F67BD50C2123D2CE00579A7C /* QCStar.h */,
 				F67BD50D2123D2CE00579A7C /* QCStar.m */,
-				F67BD5102123D7FF00579A7C /* star_gray@2x.png */,
-				F67BD50F2123D7FF00579A7C /* star_yellow@2x.png */,
 			);
 			path = QCStar;
 			sourceTree = "<group>";
@@ -257,9 +257,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F67BD5112123D7FF00579A7C /* star_yellow@2x.png in Resources */,
+				F6EBC0952123F4C7009749E9 /* star_yellow@2x.png in Resources */,
 				F67BD4E62123D1FC00579A7C /* LaunchScreen.storyboard in Resources */,
-				F67BD5122123D7FF00579A7C /* star_gray@2x.png in Resources */,
+				F6EBC0962123F4C7009749E9 /* star_gray@2x.png in Resources */,
 				F67BD4E32123D1FC00579A7C /* Assets.xcassets in Resources */,
 				F67BD4E12123D1FC00579A7C /* Main.storyboard in Resources */,
 			);
