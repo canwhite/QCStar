@@ -46,13 +46,13 @@
 - (instancetype)initWithFrame:(CGRect)frame numberOfStars:(NSInteger)numberOfStars {
     if (self = [super initWithFrame:frame]) {
         _numberOfStars = numberOfStars;
-        [self createDataAndUI];
+        [self initDataAndCreateUI];
     }
     return self;
 }
 
-// 创建视图
-- (void)createDataAndUI {
+// 初始化数据and创建视图
+- (void) initDataAndCreateUI{
     
     
     _scorePercent = 1;//默认为1
@@ -80,6 +80,8 @@
     
     if (_isJsutDisplay) {
         //数据不发生变化，界面也就不刷新
+        return;
+        
     }else{
         
         self.scorePercent = starScore / self.numberOfStars;
