@@ -9,25 +9,24 @@
         @interface ViewController ()
         @property(nonatomic,strong) QCStar *qcStarView;
         @end
+        @implementation ViewController
 
-@implementation ViewController
-
--(void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    self.qcStarView = [[QCStar alloc] initWithFrame:CGRectMake(10, 100, 300, 40) numberOfStars:5];
-    self.qcStarView.scorePercent = 0.3;
-    self.qcStarView.isCompleteStar = NO;
-    self.qcStarView.isAnimation = YES;
-    //是否仅仅是展示,默认为NO，可选
-    //self.qcStarView.isJsutDisplay = YES;
+        -(void)viewDidLoad {
+                [super viewDidLoad];
+                // Do any additional setup after loading the view, typically from a nib.
+                self.qcStarView = [[QCStar alloc] initWithFrame:CGRectMake(10, 100, 300, 40) numberOfStars:5];
+                self.qcStarView.scorePercent = 0.3;
+                self.qcStarView.isCompleteStar = NO;
+                self.qcStarView.isAnimation = YES;
+                //是否仅仅是展示,默认为NO，可选
+                //self.qcStarView.isJsutDisplay = YES;
     
-    self.qcStarView.sendStarPercent= ^(double data) {
+                self.qcStarView.sendStarPercent= ^(double data) {
         
-        NSLog(@"%f",data);
-    };
+                        NSLog(@"%f",data);
+                };
     
-    [self.view addSubview:self.qcStarView];
+                [self.view addSubview:self.qcStarView];
 
-}
-'''
+                }
+
