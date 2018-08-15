@@ -28,5 +28,5 @@
     
                 [self.view addSubview:self.qcStarView];
 
-                }
+        }
 
