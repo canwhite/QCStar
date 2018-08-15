@@ -1,7 +1,7 @@
 ## QCStar
 【ios】写了一个星星评分的控件，可以操作评分，也可以只是展示，欢迎使用
 ## 以下为使用示例（将QCStar文件夹复制到项目中，即可使用）
-···   
+'''  
 #import "ViewController.h"
 #import "QCStar.h"
 
@@ -30,4 +30,4 @@
     [self.view addSubview:self.qcStarView];
 
 }
-···
+'''
